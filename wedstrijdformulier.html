@@ -8,8 +8,11 @@
         <link rel="stylesheet" href="ugent.css">
     </head>
     <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
         <header>
-            <h1 id="h1">Spelregels minigolf Annelies De Baene</h1>
+            <h1 id="h1">Spelregels minigolf <span id="ADB">Annelies De Baene</span></h1>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
             <nav>
                 <ul>
@@ -18,11 +21,11 @@
                     <li><a href="wedstrijdformulier.html">wedstrijdformulier</a></li>
                 </ul>
             </nav>
-            <figure><img id="minigolf" src="afbeeldingen/minigolf.jpg" alt="foto van materiaal" title="minigolf materiaal"></figure>
+            <figure><img id="minigolf" src="afbeeldingen/minigolf.jpg" alt="foto van materiaal" title="minigolf materiaal" class="rounded-2"></figure>
         </header>
         <main>
             <h1>test je kennis</h1>
-            <form action="mailto:annelies.debaene@ugent.be" method="post">
+            <form action="https://formspree.io/f/mleklzrq" method="post">
                 <fieldset>
                     <legend>Persoonlijke gegevens</legend>
                     <label for="naam">Naam:</label>
@@ -83,20 +86,20 @@
                     <input id="Hardmateriaal" name="Wat is ideaal materiaal voor een minigolfbaan?" type="checkbox" value="Hard materiaal">
                     <label for="Zachtmateriaal">Zacht materiaal</label>
                     <input id="Zachtmateriaal" name="Wat is ideaal materiaal voor een minigolfbaan?" type="checkbox" value="Zacht materiaal"><br>
-                    3) Hoe heet een slag met een korte, lage balvlucht?
-                    <label for="Hoe heet een slag met een korte, lage balvlucht?"></label>
-                    <input name="Hoe heet een slag met een korte, lage balvlucht?" id="Chip"><br>
-                    4) Hoe heet een slag waarbij je het doel niet kan zien?
-                    <label for="Hoe heet een slag waarbij je het doel niet kan zien?"></label> 
-                    <input name="Hoe heet een slag waarbij je het doel niet kan zien?" id="Blindshot"><br>
+                    <label for="Hoeheeteenslagmeteenkorte,lagebalvlucht?">3) Hoe heet een slag met een korte, lage balvlucht?</label>
+                    <input name="Hoe heet een slag met een korte, lage balvlucht?" id="Hoeheeteenslagmeteenkorte,lagebalvlucht?"><br>
+                    <label for="Hoeheeteenslagwaarbijjehetdoelnietkanzien?">4) Hoe heet een slag waarbij je het doel niet kan zien?</label> 
+                    <input name="Hoe heet een slag waarbij je het doel niet kan zien?" id="Hoeheeteenslagwaarbijjehetdoelnietkanzien?"><br>
                 </fieldset>
                 <input type="reset" value="reset">
                 <input type="submit" value="verzenden">
             </form>
         </main>
-        <footer id="voettekst">
-            <p>Annelies De Baene <time datetime="2023-03-01">01-03-2023</time></p>
+        <footer class="einde">
+            <p>Annelies De Baene <time datetime="2023-03-17">17-03-2023</time></p>
         </footer>
+    </div>
+    </div>
+    </div>
     </body>
-
 </html>
